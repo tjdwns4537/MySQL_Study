@@ -1,15 +1,25 @@
 # 데이터베이스 공부
 
-# 실습 서비스
-: 고객을 적고, 해당 고객이 어떤 작업 내역을 가지고 있는지 확인할 수 있는 테이블
+### 실습 주제
+: 고객을 적고, 해당 고객이 어떤 작업 내역을 가지고 있는지 확인할 수 있는 기능 구현
 
-[Table] : CUSTOMER, WORKS
+### 실습 목표
+- 쿼리를 직접 작성하며, 성능 개선에 대해 좀 더 알아보자.
 
-[Feature]
-- JPA
+
+
+#### [Table]
+- CUSTOMER
+- WORKS
+
+#### [Feature]
+- JPA + MySQL 활용
 - native query 활용
 
-<br>
+
+# 2023.02.25
+
+<details>
 
 [개념 및 특이사항]
 1. DML = 데이터 조작어
@@ -93,4 +103,7 @@
 
 [EnumType을 DB에 그대로 반영하는 방법]
 - 해당하는 객체에 @Enumerated(EnumType.String) 을 달아준다. (성능상 좋지않음)
-- Attribute Converter 사용 : https://lng1982.tistory.com/279 (리팩토링 방향-아직 프로젝트 규모가 작음) 
+- Attribute Converter 사용 : https://lng1982.tistory.com/279 (리팩토링 방향-아직 프로젝트 규모가 작음)
+
+</details>
+

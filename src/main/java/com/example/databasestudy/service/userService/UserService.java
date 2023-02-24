@@ -1,6 +1,6 @@
-package com.example.databasestudy.service;
+package com.example.databasestudy.service.userService;
 
-import com.example.databasestudy.domain.Users;
+import com.example.databasestudy.domain.users.Users;
 import com.example.databasestudy.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.example.databasestudy.domain;
+package com.example.databasestudy.domain.users;
 
 import jakarta.persistence.*;
 import lombok.*;

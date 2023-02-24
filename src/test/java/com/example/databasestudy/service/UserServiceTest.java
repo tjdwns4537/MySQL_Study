@@ -1,30 +1,34 @@
 package com.example.databasestudy.service;
 
-import com.example.databasestudy.domain.Users;
+import com.example.databasestudy.service.userService.UserService;
+import lombok.RequiredArgsConstructor;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+@RequiredArgsConstructor
+@WebMvcTest
 class UserServiceTest {
+
+    private final UserService userService;
 
     @Test
     void save() {
-        Users user = Users.of("성준", "01074724537");
+
     }
 
     @Test
     void findById() {
+
     }
 
     @Test
     void delete() {
     }
 
-    @Test
     void generateData() {
         try{
             String fileName = "/Users/parksungjun/Desktop/db/study/MySQL_Study/users.csv";

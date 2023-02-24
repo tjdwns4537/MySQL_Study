@@ -105,5 +105,9 @@
 - 해당하는 객체에 @Enumerated(EnumType.String) 을 달아준다. (성능상 좋지않음)
 - Attribute Converter 사용 : https://lng1982.tistory.com/279 (리팩토링 방향-아직 프로젝트 규모가 작음)
 
+#### TODO
+- CustomerService, WorkService 쿼리 작성
+- Lazy로딩 성능 테스트
+
 </details>
 
